@@ -120,7 +120,7 @@ document.querySelectorAll('.js-delivery-option').forEach((element) => {
     const {productId, deliveryOptionId} =element.dataset;
     updateDeliveryOption(productId, deliveryOptionId);
     renderOrderSummary();
-    renderPaymentSummary();
+    renderPaymentSummary();                 
   })
 })
 }
