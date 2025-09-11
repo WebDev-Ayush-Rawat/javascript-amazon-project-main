@@ -1,7 +1,5 @@
 export let cart;
 
-
-
 loadFromStorage();
 
 export function loadFromStorage(){
